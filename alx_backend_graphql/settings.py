@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'graphene_django',
+    'django_filters',
     'crm'
 ]
 GRAPHENE = {"SCHEMA": "graphql_crm.schema.schema"}
