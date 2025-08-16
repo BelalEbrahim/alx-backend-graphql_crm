@@ -50,9 +50,7 @@ MIDDLEWARE = [
     'graphene_django',
     'crm'
 ]
-GRAPHENE = {
-    "SCHEMA": "graphql_crm.schema.schema",
-}
+GRAPHENE = {"SCHEMA": "graphql_crm.schema.schema"}
 
 ROOT_URLCONF = 'alx_backend_graphql_crm.urls'
 
